@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "image": "title-menu.png",
+  "referenceWidth": 1672,
+  "referenceHeight": 941,
+  "overlays": {
+    "image": "menu-overlays.png",
+    "regions": [
+      { "x": 615, "y": 410, "width": 145, "height": 135, "feather": 24 },
+      { "x": 648, "y": 608, "width": 370, "height": 164, "feather": 22 },
+      { "x": 608, "y": 743, "width": 474, "height": 188, "feather": 24 }
+    ]
+  },
+  "soundIndicator": { "x": 1599, "y": 31, "width": 50, "height": 40 },
+  "selectionMarker": {
+    "image": "selection-rays.png",
+    "source": { "x": 274, "y": 342, "width": 663, "height": 532 },
+    "width": 74,
+    "height": 60
+  },
+  "buttons": {
+    "start": { "x": 672, "y": 489, "width": 320, "height": 116 },
+    "about": { "x": 674, "y": 633, "width": 316, "height": 112 },
+    "exit": { "x": 674, "y": 770, "width": 316, "height": 112 },
+    "options": { "x": 1522, "y": 19, "width": 64, "height": 64 },
+    "sound": { "x": 1592, "y": 19, "width": 64, "height": 64 }
+  }
+}

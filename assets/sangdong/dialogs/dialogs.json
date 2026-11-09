@@ -1,0 +1,146 @@
+{
+  "version": 11,
+  "images": {
+    "endingRestart": "ending-restart.png",
+    "aboutGame": "about-game.png",
+    "aboutCharacter": "about-character.png",
+    "aboutItems": "about-items.png",
+    "aboutIdea": "about-idea.png",
+    "exitConfirmation": "exit-confirm.png",
+    "controls": "controls.png",
+    "manual": "manual.png",
+    "settings": "settings.png",
+    "settingsMuted": "settings-muted.png"
+  },
+  "pages": {
+    "ending-restart": {
+      "image": "endingRestart",
+      "source": {
+        "x": 302,
+        "y": 260,
+        "width": 1018,
+        "height": 592
+      },
+      "displaySize": {
+        "width": 802,
+        "height": 466
+      },
+      "interior": {
+        "x": 1,
+        "y": 1,
+        "width": 1016,
+        "height": 590,
+        "radius": 72,
+        "feather": 1.2
+      },
+      "paintedButtonAccent": true,
+      "buttons": {
+        "yes": {
+          "x": 466,
+          "y": 674,
+          "width": 314,
+          "height": 104,
+          "radius": 52
+        },
+        "no": {
+          "x": 842,
+          "y": 674,
+          "width": 314,
+          "height": 104,
+          "radius": 52
+        }
+      }
+    },
+    "exit-confirm": {
+      "image": "exitConfirmation",
+      "source": { "x": 0, "y": 0, "width": 1536, "height": 1024 },
+      "displaySize": { "width": 450, "height": 300 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "yes": { "x": 205, "y": 568, "width": 493, "height": 174, "radius": 87 },
+        "no": { "x": 837, "y": 568, "width": 494, "height": 174, "radius": 87 },
+        "close": { "x": 1380, "y": 59, "width": 100, "height": 98, "radius": 24 }
+      }
+    },
+    "about": {
+      "image": "aboutGame",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "previous": { "x": 466, "y": 898, "width": 100, "height": 104, "radius": 18 },
+        "next": { "x": 884, "y": 898, "width": 104, "height": 104, "radius": 18 },
+        "close": { "x": 1284, "y": 56, "width": 108, "height": 112, "radius": 24 }
+      }
+    },
+    "about-character": {
+      "image": "aboutCharacter",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "previous": { "x": 466, "y": 898, "width": 100, "height": 104, "radius": 18 },
+        "next": { "x": 884, "y": 898, "width": 104, "height": 104, "radius": 18 },
+        "close": { "x": 1284, "y": 56, "width": 108, "height": 112, "radius": 24 }
+      }
+    },
+    "about-items": {
+      "image": "aboutItems",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "previous": { "x": 466, "y": 898, "width": 100, "height": 104, "radius": 18 },
+        "next": { "x": 884, "y": 898, "width": 104, "height": 104, "radius": 18 },
+        "close": { "x": 1284, "y": 56, "width": 108, "height": 112, "radius": 24 }
+      }
+    },
+    "about-idea": {
+      "image": "aboutIdea",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "previous": { "x": 466, "y": 898, "width": 100, "height": 104, "radius": 18 },
+        "next": { "x": 884, "y": 898, "width": 104, "height": 104, "radius": 18 },
+        "close": { "x": 1284, "y": 56, "width": 108, "height": 112, "radius": 24 },
+        "source": { "x": 218, "y": 680, "width": 1040, "height": 90, "radius": 16 }
+      }
+    },
+    "options": {
+      "image": "settings",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "soundOffImage": "settingsMuted",
+      "soundIndicator": { "x": 452, "y": 561, "width": 544, "height": 115 },
+      "buttons": {
+        "controls": { "x": 454, "y": 406, "width": 540, "height": 110 },
+        "sound": { "x": 454, "y": 563, "width": 540, "height": 110 },
+        "mainMenu": { "x": 454, "y": 718, "width": 540, "height": 110 },
+        "quit": { "x": 454, "y": 875, "width": 540, "height": 112 },
+        "close": { "x": 1309, "y": 53, "width": 87, "height": 87, "radius": 24 }
+      },
+      "interior": { "x": 0, "y": 9, "width": 1448, "height": 1077, "radius": 72, "feather": 1 }
+    },
+    "manual": {
+      "image": "manual",
+      "source": { "x": 0, "y": 0, "width": 1451, "height": 1084 },
+      "transparent": true,
+      "paintedButtonAccent": true,
+      "buttons": {
+        "back": { "x": 450, "y": 881, "width": 554, "height": 128 },
+        "close": { "x": 1311, "y": 31, "width": 103, "height": 103, "radius": 27 }
+      }
+    },
+    "controls": {
+      "image": "controls",
+      "source": { "x": 0, "y": 0, "width": 1448, "height": 1086 },
+      "paintedButtonAccent": true,
+      "buttons": {
+        "start": { "x": 428, "y": 678, "width": 590, "height": 150 },
+        "back": { "x": 1288, "y": 72, "width": 90, "height": 90, "radius": 24 }
+      },
+      "interior": { "x": 13, "y": 19, "width": 1421, "height": 1050, "radius": 99, "feather": 1 }
+    }
+  }
+}

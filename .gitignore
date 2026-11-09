@@ -1,0 +1,37 @@
+# Gradle and build output
+.gradle/
+**/build/
+/dist/
+/assets/assets.txt
+
+# Java
+*.class
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Local IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+/bin/
+local.properties
+
+# Temporary and local files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Keep regression tests when this project is inside a larger repository.
+!core/src/test/

@@ -1,0 +1,28 @@
+name: Windows build
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Test and package
+        run: .\gradlew.bat clean core:test lwjgl3:packageWinX64
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sangdong-lakepark-windows
+          path: dist/*.zip
+          if-no-files-found: error
